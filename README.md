@@ -1,40 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AuthorCraft
 
-## Getting Started
+![Banner](/public/Banner.jpg)
 
-First, run the development server:
+## Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Unleash Your Creative Writing Potential
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Are you ready to embark on your literary journey, crafting stories that captivate the world? Welcome to AuthorCraft, your ultimate companion in the world of digital authorship.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Unleash Your Creativity
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+AuthorCraft empowers writers of all backgrounds to harness their creativity, providing a user-friendly and intuitive platform for crafting stories, novels, and ebooks. Whether you're an aspiring novelist, a seasoned author, or a student, our robust toolkit is designed to inspire and support your writing endeavors.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Effortless Ebook Creation**: Create, edit, and format your ebooks effortlessly. Tailor your work to industry standards, including EPUB, PDF, and Kindle formats.
+
+- **Collaborative Excellence**: Seamlessly collaborate with fellow authors and editors. Share your work securely and decide who can edit and view your literary masterpiece.
+
+- **AI-Powered Enhancements**: Our intelligent AI assists you in generating book covers, enhancing your prose, and even provides basic book templates, saving you time and effort.
+
+- **Dashboard for Author Insight**: Stay organized and informed with a personalized dashboard that offers at-a-glance information on your ebook projects, collaboration requests, and more.
+
+- **User-Friendly Editing**: Our Rich Text Editor allows for easy content creation with features like auto-correction and custom keyboard shortcuts.
+
+- **Library Management**: Keep your literary treasures organized in your digital library. Quickly access, edit, or share your previous works.
+
+## Roadmap
+
+- Already Done:
+  - Authentication
+  - Hosting
+- Currently Working On:
+  - **Effortless Ebook Creation**: Create, edit, and format your ebooks effortlessly. EPUB Format.
+  - **Dashboard for Author Insight**: Stay organized and informed with a personalized dashboard that offers at-a-glance information on your ebook projects.
+  - **Library Management**: Keep your literary treasures organized in your digital library. Quickly access, edit, or share your previous works.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about AuthorCraft, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [The AuthorCraft Official Website](https://author-craft.vercel.app/)
+- [The AuthorCraft GitHub repository](https://github.com/Jemeni11/AuthorCraft) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out their [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
