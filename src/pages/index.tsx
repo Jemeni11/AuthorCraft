@@ -14,11 +14,23 @@ export default function Home() {
         <meta name="twitter:url" content="https://author-craft.vercel.app/" />
         <meta name="twitter:title" content="Home | AuthorCraft" />
       </Head>
-      <section className="bg-hanko-blue text-white">
+      <section className="min-h-screen bg-hanko-blue text-white">
+        <div className="bg-indigo-600 px-4 py-3 text-white">
+          <p className="text-center text-sm font-medium">
+            Love AuthorCraft? Give it a star on
+            <a
+              href="https://github.com/Jemeni11/AuthorCraft"
+              className="inline-block underline"
+            >
+              GitHub
+            </a>
+            !
+          </p>
+        </div>
         <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="bg-gradient-to-r from-[#ff9fa8] via-hanko-red to-[#c80832] bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-              Unleash Your Writing Potential.
+              Unleash Your Writing Potential.{" "}
               <span className="sm:block">Create Novels Effortlessly.</span>
             </h1>
 
