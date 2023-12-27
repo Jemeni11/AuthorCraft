@@ -13,3 +13,9 @@
 body {
   color: white;
 }
+
+textarea {
+  field-sizing: content;
+  min-height: 2lh;
+  max-height: 8lh;
+}

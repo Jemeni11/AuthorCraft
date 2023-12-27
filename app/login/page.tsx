@@ -1,9 +1,35 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../public/apple-touch-icon.png";
+import { Metadata } from "next";
+
+const meta = {
+  title: "Login | Emmanuel Jemeni",
+  url: "https://jemeni.vercel.app/login",
+  description: "Login to Authorcraft",
+  // TODO: Change this
+  image:
+    "https://res.cloudinary.com/dro4rspo2/image/upload/v1693925474/OG-Image-About_mrdep7.png",
+};
+
+export const metadata: Metadata = {
+  title: "Login",
+  description: meta.description,
+  openGraph: {
+    title: meta.title,
+    url: meta.url,
+    description: meta.description,
+    images: meta.image,
+  },
+  twitter: {
+    title: meta.title,
+    site: meta.url,
+    description: meta.description,
+    images: [meta.image],
+  },
+};
 
 const HankoAuth = dynamic(() => import("@/components/HankoAuth"), {
   ssr: false,
@@ -12,19 +38,6 @@ const HankoAuth = dynamic(() => import("@/components/HankoAuth"), {
 export default function Login() {
   return (
     <>
-      <Head>
-        <title>Login | AuthorCraft</title>
-        <meta
-          property="og:url"
-          content="https://author-craft.vercel.app/login"
-        />
-        <meta property="og:title" content="Login | AuthorCraft" />
-        <meta
-          name="twitter:url"
-          content="https://author-craft.vercel.app/login"
-        />
-        <meta name="twitter:title" content="Login | AuthorCraft" />
-      </Head>
       <section className="bg-white">
         <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
           <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
@@ -65,8 +78,9 @@ export default function Login() {
                   platform for crafting stories, novels, and ebooks.
                 </p>
               </div>
-
-              <HankoAuth />
+              <div className="flex items-center justify-center">
+                <HankoAuth />
+              </div>
             </div>
           </main>
         </div>

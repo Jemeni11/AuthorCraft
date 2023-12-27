@@ -17,7 +17,7 @@ export default function Home() {
       <section className="min-h-screen bg-hanko-blue text-white">
         <div className="bg-indigo-600 px-4 py-3 text-white">
           <p className="text-center text-sm font-medium">
-            Love AuthorCraft? Give it a star on
+            Love AuthorCraft? Give it a star on{" "}
             <a
               href="https://github.com/Jemeni11/AuthorCraft"
               className="inline-block underline"

@@ -8,7 +8,7 @@ export async function middleware(req: NextRequest) {
   const hanko = req.cookies.get("hanko")?.value;
 
   const JWKS = createRemoteJWKSet(
-    new URL(`${hankoApiUrl}/.well-known/jwks.json`)
+    new URL(`${hankoApiUrl}/.well-known/jwks.json`),
   );
 
   try {
@@ -19,5 +19,5 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/dashboard", "/workshop"],
+  matcher: ["/dashboard", "/workshop", "/workshop/:path*"],
 };
